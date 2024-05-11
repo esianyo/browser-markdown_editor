@@ -97,7 +97,7 @@ const DocumentIcon = styled.img`
 const DocumentNameContainer = styled.div`
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 300;
+  font-weight: Bold;
   font-size: 13px;
   line-height: 15px;
   color: #c1c4cb;

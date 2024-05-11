@@ -14,7 +14,7 @@ const StyledNavbar = styled.div`
   color: #ffffff;
   background-color: #2b2d31;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   transform: translateX(
     ${({ showSidebar }) => (showSidebar ? "250px" : "0px")}
@@ -97,7 +97,7 @@ const DocumentIcon = styled.img`
 const DocumentNameContainer = styled.div`
   font-family: "Roboto";
   font-style: normal;
-  font-weight: Bold;
+  font-weight: 300;
   font-size: 13px;
   line-height: 15px;
   color: #c1c4cb;

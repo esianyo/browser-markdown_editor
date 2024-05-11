@@ -7,7 +7,7 @@ import ThemeSelection from "./ThemeSelection";
 import CreateButton from "./CreateButton";
 
 const StyledSidebar = styled.div`
-  height: 100vh;
+  height: 660px;
   width: 250px;
   position: fixed;
   top: 0;

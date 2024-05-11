@@ -9,12 +9,12 @@ import DeleteButton from "./DeleteButton";
 import { DocumentContext } from "../../documents/documentContext";
 
 const StyledNavbar = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 72px;
   color: #ffffff;
   background-color: #2b2d31;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   transform: translateX(
     ${({ showSidebar }) => (showSidebar ? "250px" : "0px")}

@@ -86,7 +86,7 @@ const DocumentName = styled.div`
 `;
 const ThemeContainer = styled.div`
   padding-left: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 70px;
 `;
 
 const Sidebar = ({ showSidebar, handleSidebar }) => {

@@ -9,7 +9,7 @@ import CreateButton from "./CreateButton";
 
 //component styling techniques
 const StyledSidebar = styled.div`
-  height: 660px;
+  height: 690px;
   width: 250px;
   position: fixed;
   top: 0;

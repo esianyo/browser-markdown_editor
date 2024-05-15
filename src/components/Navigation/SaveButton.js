@@ -4,6 +4,8 @@ import iconSave from "../../assets/icon-save.svg";
 
 import { DocumentContext } from "../../documents/documentContext";
 
+
+//styling in components
 const StyledSaveButton = styled.button`
   display: flex;
   flex-flow: row nowrap;

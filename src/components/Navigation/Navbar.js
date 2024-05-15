@@ -8,6 +8,8 @@ import SaveButton from "./SaveButton";
 import DeleteButton from "./DeleteButton";
 import { DocumentContext } from "../../documents/documentContext";
 
+
+//styling for the SideNav with styled components
 const StyledNavbar = styled.div`
   width: 100%;
   height: 72px;
@@ -154,7 +156,12 @@ const Navbar = ({ showSidebar, handleSidebar, handleEnter, setModalOpen }) => {
     }
   };
 
+
+
+  //actual code or rendering section  
+
   return (
+    
     <StyledNavbar showSidebar={showSidebar}>
       <LeftContainer>
         <MenuButton onClick={handleSidebar}>

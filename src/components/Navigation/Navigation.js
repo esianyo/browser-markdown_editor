@@ -12,6 +12,8 @@ const Navigation = ({
   handleEnter,
   setModalOpen,
 }) => {
+
+  //rendering section of the code 
   return (
     <StyledNavigation>
       <Sidebar showSidebar={showSidebar} handleSidebar={handleSidebar} />

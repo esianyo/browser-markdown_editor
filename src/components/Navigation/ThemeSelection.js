@@ -5,6 +5,8 @@ import iconDarkMode from "../../assets/icon-dark-mode.svg";
 
 import { ThemeContext } from "../../themes/themeContext";
 
+
+//styling for the toggling the theme into dark
 const StyledThemeSelection = styled.div`
   width: 104px;
   display: flex;

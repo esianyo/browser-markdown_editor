@@ -6,6 +6,8 @@ import { DocumentContext } from "../../documents/documentContext";
 import ThemeSelection from "./ThemeSelection";
 import CreateButton from "./CreateButton";
 
+
+//component styling techniques
 const StyledSidebar = styled.div`
   height: 660px;
   width: 250px;

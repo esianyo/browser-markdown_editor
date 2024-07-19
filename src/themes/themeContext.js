@@ -25,9 +25,9 @@ const ThemeContextWrapper = ({ children }) => {
   }, [theme]);
 
   const handleThemeChange = () => {
-    theme.name === themes.light.name
-      ? setTheme(themes.dark)
-      : setTheme(themes.light);
+    setTheme((prevTheme) =>
+      prevTheme.name === themes.light.name ? themes.dark : themes.light
+    );
   };
 
   return (
@@ -37,7 +37,7 @@ const ThemeContextWrapper = ({ children }) => {
   );
 };
 
-ThemeContextWrapper.protoTypes = {
+ThemeContextWrapper.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
